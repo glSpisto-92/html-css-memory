@@ -34,6 +34,10 @@ h1{
 }
 
 .mongolfiera{
+  background-image: url('../img/air-baloon.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   display: inline-block;
   background-color: white;
   width: 200px;
@@ -41,24 +45,39 @@ h1{
   margin: 10px;
   border-radius: 15px;
   box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 
-.bici:hover{
+#specialtext{
+  position: absolute;
+  /* display: inline-block; */
+  font-weight: bold;
+  font-size: 30px;
+  bottom: 0;
+  left: 40px;
+  color: #f400a1;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.bici:hover {
   background-image:url('../img/noun_Bicycle_3134821.png');
   background-color: white;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .submarine:hover{
   background-image:url('../img/noun_Submarine_3134738.png');
   background-color: white;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .ship:hover{
   background-image:url('../img/noun_Cruise_Ship_3134824.png');
   background-color: white;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 
@@ -66,12 +85,14 @@ h1{
   background-image:url('../img/noun_Tram_3134750.png');
   background-color: white;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .tractor:hover{
   background-image:url('../img/noun_Tractor_3134797.png');
   background-color: white;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .credits{
