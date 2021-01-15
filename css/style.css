@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #ADD8E6;
+  font-family: 'Nerko One', cursive;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 20px;
+  text-shadow:2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container{
+  margin: auto;
+  text-align: center;
+}
+
+.carta{
+  display: inline-block;
+  width: 200px;
+  height: 280px;
+  background-image: url('../img/pattern.png');
+  background-size: contain;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.credits{
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin: 15px;
+}
